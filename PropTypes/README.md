@@ -1,5 +1,3 @@
-# helpers
-
 # PropTypes
 
 ## import of proptypes
