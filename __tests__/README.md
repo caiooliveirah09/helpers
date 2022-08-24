@@ -58,8 +58,8 @@ import { createMemoryHistory } from 'history';
 import { render } from '@testing-library/react';
 import { RecipesProvider } from '../../context/RecipesContext';
 
-const renderWithRouter = (component) => {
-  const history = createMemoryHistory();
+const renderWithRouter = (component, route = '/') => {
+  const history = createMemoryHistory({ initialEntries: [route] });
   return ({
     ...render(
       <Router history={ history }>
