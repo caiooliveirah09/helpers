@@ -73,3 +73,14 @@ const renderWithRouter = (component, route = '/') => {
 };
 export default renderWithRouter;
 ```
+## beforeEach and afterEach 
+
+```
+beforeEach(() => {
+    localStorage.setItem('user', JSON.stringify({ email }));
+  });
+
+  afterEach(() => {
+    localStorage.clear();
+  });
+```
