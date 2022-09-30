@@ -96,3 +96,11 @@ brew remove mysql
 sudo apt install ./nome-do-arquivo
 #ex no Ubuntu 20.04: sudo apt install ./mysql-workbench-community_8.0.21-1ubuntu20.04_amd64.deb
 ```
+
+## mySQL commands
+
+1. select all
+
+```
+SELECT * FROM sakila.actor;
+```
