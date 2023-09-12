@@ -41,7 +41,7 @@ sudo apt install npm
 ```
 
 # Docker
-
+INSTALAÇÃO DESATUALIZAD MELHOR USAR A [DOCUMENTAÇÃO](https://docs.docker.com/engine/install/ubuntu/)
 * Instalando as dependências iniciais
 
 ```
